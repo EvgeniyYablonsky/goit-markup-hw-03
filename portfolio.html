@@ -11,33 +11,35 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+<body class="page">
+    <section>
     <header class="header">
+        <nav class="main-header-nav">
         <a href="/" class="main-header-link"><span style="color:#2196F3;">Web</span><span style="color:#212121;">Studio</span></a>
-        
-        <nav class="header-nav">
             <ul class="header-list">
                 <li class="header-item"><a href="./index.html" class="header-link">Студия</a></li>
                 <li class="header-item"><a href="" class="current1">Портфолио</a></li>
                 <li class="header-item"><a href="" class="header-link">Контакты</a></li>
             </ul>
-        </nav>
-        <ul>
+        <ul class="auth-nav">
             <li class="header-item"><a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <li class="header-item"><a class="header-contact" href="tel:+380961111111">+38 096 111 11 11</a>
-    
         </ul>
-    </header>
+        </nav>
+        </section>
     <main>
     <section class="button-all">
-        <ul>
+        <ul class="menu">
         <li><button type="button" class="button-all-main">Все</button></li>
         <li><button type="button" class="button-all">Веб-сайты</button></li>
         <li><button type="button" class="button-all">Приложения</button></li>
         <li><button type="button" class="button-all">Дизайн</button></li>
         <li><button type="button" class="button-all">Маркетинг</button></li>
         </ul>
-        <ul class="about2">
+    </section>
+    <section>
+        <ul class="card-set">
             <li class="about2-link">
                 <img src="./images/img4.jpg" alt="product designer" width="370" height="294" />
                 <h2 class="car-title">Технокряк</h2>
@@ -84,6 +86,7 @@
                 <p class="about">Приложение</p>
             </li>
         </ul>
+    </header>
     </section>
     </main>
     <footer class="contacts">
