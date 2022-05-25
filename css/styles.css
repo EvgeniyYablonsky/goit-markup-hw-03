@@ -14,7 +14,7 @@ list-style: none;
 ---third-title-color:#FFFFFF;
 }
 .page {
-    width: 1200px;
+    width: 1220px;
 }
 
 .text {
@@ -260,9 +260,7 @@ body {
 .about1-link {
     list-style: none;
 }
-.about2-link + .about2-link {
-margin-left: 5px;
-}
+
 .about2 {
     list-style: none;
 }
