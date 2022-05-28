@@ -14,8 +14,11 @@ list-style: none;
 ---third-title-color:#FFFFFF;
 }
 .page {
-    width: 1220px;
-    margin-left: 300px;;
+    width: 1210px;
+       
+    
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .text {
