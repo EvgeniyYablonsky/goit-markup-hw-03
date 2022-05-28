@@ -15,6 +15,7 @@ list-style: none;
 }
 .page {
     width: 1220px;
+    margin-left: 300px;;
 }
 
 .text {
@@ -174,6 +175,7 @@ body {
     border-radius: 4px;
     border: none;
     padding: 10px 32px;
+    
 }
 .hero-btn:hover {
     background-color: #188CE8;
@@ -214,7 +216,7 @@ body {
 
 }
 .about2-link {
-    flex-basis: calc{100%/3-30px};
+    flex-basis: calc { 100%/3-30px };
     margin-left: 30px;
     margin-bottom: 30px;
 }
@@ -286,9 +288,7 @@ body {
     padding: 6px 22px;
     text-align: center;
     margin-right: 8px;
-
-
-    
+ 
 }
 .button-all-main {
     background-color: var(---second-btn-color);
@@ -314,6 +314,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(---second-btn-color);
+    margin-left: 0px;
 }
 .adress {
     list-style: none;
