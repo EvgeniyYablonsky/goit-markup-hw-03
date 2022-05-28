@@ -13,7 +13,7 @@ list-style: none;
 ---second-title-color: #757575;
 ---third-title-color:#FFFFFF;
 }
-.page {
+.container {
     width: 1210px;
     margin-left: auto;
     margin-right: auto;
