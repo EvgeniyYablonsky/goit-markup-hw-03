@@ -142,7 +142,7 @@ body {
     background-color: var(---third-title-color);
 }
 .hero {
-    width: 1600px;
+    width: 1200px;
     height: 600px;
     background-color: #2F303A;
     font-weight: 900;
@@ -199,9 +199,10 @@ body {
 .section-title-work .about-work {
     display: flex;
     justify-content: space-between;
-    flex-basis: calc {100%/4-30px};
-    margin-left: 30px;
+    padding:0;
+  
 }
+
 .about-us .about1 {
     display: flex;
     justify-content: space-between;
@@ -279,7 +280,6 @@ body {
         color: var(---main-btn-color);
 }
 .button-all {
-    
     font-family: Roboto; 
     font-weight: 500;
     font-size: 16px;
@@ -311,7 +311,7 @@ body {
 }
 
 .contacts {
-    width: 1600px;
+    width: 1200px;
     background-color: #2F303A;
     text-decoration: none;
     font-weight: 700;
