@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, sans-serif ;
+    background-color: var(---third-title-color);
 
     }
     
@@ -14,11 +15,14 @@ list-style: none;
 ---third-title-color:#FFFFFF;
 }
 .container {
-    width: 1210px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .text {
     font-weight: 400;
     font-size: 14px;
@@ -56,6 +60,7 @@ list-style: none;
     color: #212121;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 
@@ -89,10 +94,13 @@ list-style: none;
     display: flex;
     align-items: center;
 }
-
+.header {
+    border-bottom: 1px solid #ECECEC; ;
+}
 .header-list {
     display: flex;
     margin-left: 93px;
+    padding: 0;
 }
 .header-item {
 
@@ -116,12 +124,16 @@ list-style: none;
     letter-spacing: 0.02em;
 }
 .header-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(---main-title-color)
+    
 }
 
 .current1 {
@@ -131,6 +143,9 @@ list-style: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 .current1:hover .current1:hover {
     color: var(---second-btn-color);
@@ -139,12 +154,11 @@ list-style: none;
 .current1:focus .current1:focus  {
     color: var(---second-btn-color);
 }
-body {
-    background-color: var(---third-title-color);
-}
+
 .hero {
-    width: 1200px;
-    height: 600px;
+    padding: 200px 0px;
+    max-width: 650px;
+    margin:auto;
     background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
@@ -155,7 +169,7 @@ body {
     color: var(---third-title-color);
 }
 .hero-title {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -207,11 +221,6 @@ body {
   
 }
 
-.about-us .about1 {
-    display: flex;
-    justify-content: space-between;
-
-}
 .card-set {
     font-family: Roboto;
     font-weight: 700;
@@ -220,15 +229,20 @@ body {
     letter-spacing: 0.06em;   
     color: var(---main-btn-color);
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-bottom: -30px;
 
 }
+.card {
+    padding: 20px 24px;
+}
 .about2-link {
     flex-basis: calc (100%/3-30px);
     margin-left: 30px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .about-work {
@@ -238,18 +252,28 @@ body {
     color: var(---second-title-color);
     list-style: none;
 }
+.names {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
     color: var(---main-btn-color);
+    margin-top: 0;
 }
 .about-us{
+    background-color: #FFFFFF;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
     color: var(---main-title-color);
 }
 .about1-link {
@@ -259,15 +283,14 @@ body {
     letter-spacing: 0.03em;
     color: var(---main-title-color);
 }
-.about-us {
-    background-color: #F5F4FA;
-}
+
 .about {
     font-weight: 400;
     font-size:16px;
     line-height:1.88;
     letter-spacing:0.03em;
     color: var(---second-title-color);
+    margin: 0;
 }
 .about1-link {
     list-style: none;
@@ -282,6 +305,7 @@ body {
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(---main-btn-color);
+        margin-bottom: 4px;
 }
 .button-all {
     font-family: Roboto; 
@@ -314,7 +338,6 @@ body {
 }
 
 .contacts {
-    width: 1210px;
     background-color: #2F303A;
     text-decoration: none;
     font-weight: 700;
