@@ -76,6 +76,8 @@ list-style: none;
 }
 
 .header-link1 {
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -85,6 +87,8 @@ list-style: none;
 }
 
 .header-contacts  {
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -112,7 +116,7 @@ list-style: none;
     display: flex;
     margin-left: 93px;
     padding: 0;
-    margin-left: 0;
+
 }
 .header-item {
     margin-right: 50px;
@@ -129,6 +133,8 @@ list-style: none;
 }
 
 .header-contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(---second-title-color);
     text-decoration: none;
     font-weight: 500;
@@ -223,7 +229,7 @@ list-style: none;
     letter-spacing: 0.03em;
     color: var(---main-btn-color)
 }
-.list .hero-list {
+.list-section .hero-list {
     display: flex;
     justify-content: space-between;
     
