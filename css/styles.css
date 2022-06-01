@@ -31,6 +31,12 @@ list-style: none;
     padding-left: 15px;
     padding-right: 15px;
 }
+.conteiner-contacts {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -72,7 +78,8 @@ list-style: none;
     color: #212121;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 34px;
+    margin-top: 0;
 }
 
 .header-link1 {
@@ -198,6 +205,9 @@ list-style: none;
     margin: auto;
     max-width: 650px;
 }
+.hero-list {
+    padding-left: 0;
+}
 .about-list .about-work {
     flex-basis: calc (100%/3-30px);
     margin: 0 auto;
@@ -227,17 +237,21 @@ list-style: none;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0;
     color: var(---main-btn-color)
 }
 .list-section .hero-list {
     display: flex;
     justify-content: space-between;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 .section-title-work .about-work {
     display: flex;
     justify-content: space-between;
     padding:0;
+    margin-top: 0px;
     margin-bottom: 50px;
   
 }
@@ -262,14 +276,13 @@ list-style: none;
     margin-bottom: -30px;
 
 }
-.card {
-    padding: 20px 24px;
-}
+
 .about2-link {
     flex-basis: calc (100%/3-30px);
     margin-left: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #ECECEC;
+    border: 1px solid #EEEEEE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about-work {
@@ -278,6 +291,7 @@ list-style: none;
     letter-spacing: 0.03em;
     color: var(---second-title-color);
     list-style: none;
+    margin-bottom: 0px;
     
 }
 .names {
@@ -389,6 +403,7 @@ list-style: none;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(---third-title-color);
+    padding: 0;
     }
 .address-list {
     font-family: "Relaway", sans-serif;
