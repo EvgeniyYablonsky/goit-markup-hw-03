@@ -131,9 +131,14 @@ list-style: none;
     margin-left: 0;
 
 }
-.header-item :not(:last-child) {
+.header-item :not(:last-child) 
+{
     margin-right: 50px;
 }
+.hero-item :not(:last-child)  {
+    margin-right: 30px;
+}
+
 .auth-nav {
     display: flex;
     margin-left: auto;
@@ -207,10 +212,15 @@ list-style: none;
 }
 .hero-list {
     padding-left: 0;
+    display: flex;
+    margin: 0;
+    
 }
-.about-list .about-work {
+.about-work {
     flex-basis: calc (100%/3-30px);
     margin: 0 auto;
+    padding-left: 0auto;
+    display: flex;
 }
 .hero-btn {
     background-color: var(---second-btn-color);
@@ -253,15 +263,20 @@ list-style: none;
     padding:0;
     margin-top: 0px;
     margin-bottom: 50px;
+    
   
 }
 .about1 {
+    display: block;
     display: flex;
     flex-basis: calc (100%/3-30px);
     justify-content: space-between;
-    padding:0;
+    padding: 0 auto;
 }
-
+.about-work {
+    padding: 0 auto;
+    width: calc (100%/3-30px);
+}
 .card-set {
     font-family: Roboto;
     font-weight: 700;
@@ -274,6 +289,7 @@ list-style: none;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-bottom: -30px;
+    margin-top: 0;
 
 }
 
@@ -282,7 +298,6 @@ list-style: none;
     margin-left: 30px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about-work {
@@ -321,12 +336,14 @@ list-style: none;
     color: var(---main-title-color);
     
 }
-.about1-link {
+.about1-link  :not(:last-child)
+{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: var(---main-title-color);
+
 }
 
 .about {
@@ -351,6 +368,7 @@ list-style: none;
         letter-spacing: 0.06em;
         color: var(---main-btn-color);
         margin-bottom: 4px;
+        margin-top: 0 auto;
 }
 .button-all {
     font-family: Roboto; 
@@ -433,6 +451,9 @@ list-style: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.card {
+    padding: 20px 24px;
 }
 /* Цвет основного текста color: #212121; */
 /* вторичный цвет текста color: #757575; */
