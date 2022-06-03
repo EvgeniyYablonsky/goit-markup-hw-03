@@ -22,14 +22,11 @@ list-style: none;
 .conteiner-work {
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    
 }
 .conteiner-people {
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .conteiner-contacts {
     width: 1200px;
@@ -136,9 +133,13 @@ list-style: none;
     margin-right: 50px;
 }
 .hero-item :not(:last-child)  {
+
     margin-right: 30px;
 }
 
+.hero-list :not(:last-child) {
+    margin-right: 30px;
+}
 .auth-nav {
     display: flex;
     margin-left: auto;
@@ -216,11 +217,15 @@ list-style: none;
     margin: 0;
     
 }
+.section {
+    padding-bottom: 0;
+}
 .about-work {
     flex-basis: calc (100%/3-30px);
-    margin: 0 auto;
-    padding-left: 0auto;
+    padding-left: 0 auto;
+    margin-right: 30px;
     display: flex;
+
 }
 .hero-btn {
     background-color: var(---second-btn-color);
@@ -247,7 +252,6 @@ list-style: none;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 0;
     color: var(---main-btn-color)
 }
 .list-section .hero-list {
@@ -272,6 +276,7 @@ list-style: none;
     flex-basis: calc (100%/3-30px);
     justify-content: space-between;
     padding: 0 auto;
+    margin-right: 30px;
 }
 .about-work {
     padding: 0 auto;
@@ -323,7 +328,7 @@ list-style: none;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(---main-btn-color);
-    margin-top: 0;
+    margin-top: 0 auto;
 }
 .about-us{
     background-color: #FFFFFF;
@@ -343,7 +348,11 @@ list-style: none;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: var(---main-title-color);
+  
 
+}
+.about1-link {
+    margin-right: 30px;
 }
 
 .about {
@@ -357,7 +366,9 @@ list-style: none;
 .about1-link {
     list-style: none;
 }
-
+.about-list {
+    margin-right: 30px;
+}
 .about2 {
     list-style: none;
 }
@@ -368,7 +379,6 @@ list-style: none;
         letter-spacing: 0.06em;
         color: var(---main-btn-color);
         margin-bottom: 4px;
-        margin-top: 0 auto;
 }
 .button-all {
     font-family: Roboto; 
