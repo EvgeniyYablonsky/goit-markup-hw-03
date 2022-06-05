@@ -38,7 +38,12 @@ list-style: none;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.section-about {
+    padding-bottom: 0;
+}
 .text {
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -217,9 +222,7 @@ list-style: none;
     margin: 0;
     
 }
-.section {
-    padding-bottom: 0;
-}
+
 .about-work {
     flex-basis: calc (100%/3-30px);
     padding-left: 0 auto;
@@ -276,7 +279,8 @@ list-style: none;
     flex-basis: calc (100%/3-30px);
     justify-content: space-between;
     padding: 0 auto;
-    margin-right: 30px;
+    padding: 0;
+    margin: 0;
 }
 .about-work {
     padding: 0 auto;
@@ -352,6 +356,7 @@ list-style: none;
 
 }
 .about1-link {
+    background: #FFFFFF;
     margin-right: 30px;
 }
 
