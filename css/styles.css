@@ -332,7 +332,7 @@ list-style: none;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(---main-btn-color);
-    margin-top: 0 auto;
+    margin-top: 0 ;
 }
 .about-us{
     background-color: #FFFFFF;
